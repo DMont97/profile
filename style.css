@@ -1,0 +1,111 @@
+body {
+  background-color: darkgrey;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+h1,h2{
+  font-family: 'Roboto Slab', serif;
+  color: #0BCDB5;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+  font-weight: lighter;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: lighter;
+}
+a:hover{
+  color:white;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.box-white{
+  background-color:#202124;
+  box-shadow:0px 10px 30px rgba(0,0,0,.7);
+  padding:40px;
+  border-radius:4px;
+  margin:20px 0px;
+  text-align: center;
+}
+.list-inline{
+  list-style:none;
+  padding-left:0px;
+}
+.list-inline li{
+  display:inline;
+  padding-left:50px;
+}
+.list-inline i{
+  font-size:50px;
+  color:rgb(230,230,230);
+}
+.list-inline i:hover{
+  color:#01ffe1;
+}
+.btn-blue{
+  background-color:#1fc5b2;
+  color:white;
+  padding:15px;
+  border-radius:4px;
+}
+.btn-blue:hover{
+  background-color:#1f8082;
+  color:white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  body{
+    font-size: 12px;
+  }
+  .img-circle{
+    width:210px ;
+    height:270px ;
+  }
+  .list-inline li{
+    display:inline;
+    padding-left:30px;
+  }
+  .list-inline i{
+    font-size:30px;
+  }
+}
